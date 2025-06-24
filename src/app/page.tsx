@@ -1,6 +1,11 @@
 import Navbar from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Service from '@/components/services';
+import Footer from '@/components/Footer';
+import Review from '@/components/review';
+import Subscribe from '@/components/subscribe';
+
 
 export default function Home() {
   return (
@@ -24,6 +29,11 @@ export default function Home() {
       </div>
 
       <Navbar />
+   
+      <Service/>
+      <Review/>
+      <Subscribe/>
+      <Footer/>
 
       {/* Hero Section will go here */}
     </div>
